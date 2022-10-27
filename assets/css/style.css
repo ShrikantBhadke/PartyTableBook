@@ -1,0 +1,64 @@
+.header {
+  background-color: #fff;
+  border-bottom: 5px solid #b941b9;
+  height: 100%;
+}
+
+.logo {
+  list-style: none;
+}
+
+.logo li {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 40px;
+  color: #b941b9;
+}
+
+.header p {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 0;
+  color: #5f0c0c;
+}
+
+.booking_slot {
+  padding: 20px 0;
+  background-color: rgb(185, 65, 185, 0.2);
+}
+
+.container-fluid {
+  background-color: #fff;
+  margin: 0 20px;
+  width: auto;
+}
+
+.smartest {
+  border-right: 1px solid #b941b9;
+  height: 80vh;
+}
+
+.smartest h2 {
+  color: #b941b9;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.smartest h3 {
+  color: #b941b9;
+  margin-bottom: 20px;
+}
+
+.smartest p {
+  color: #250525;
+}
+
+.smartest img {
+  width: 100%;
+  height: 120px;
+
+}
+
+/* =============================================================== */
