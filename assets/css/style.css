@@ -137,12 +137,9 @@
 .days div {
   display: inline-block;
   padding: 5px 20px;
-  border-radius: 50px;
   background-color: #fff;
-  border: 1px solid #250525;
   font-size: 18px;
   width: 60px;
-  text-shadow: 0 0.3rem 0.5rem rgb(0, 0, 0, 0.5);
   transition: background-color 0.2s;
   margin: 5px 2px;
 
@@ -150,10 +147,16 @@
 
 .days div:hover:not(.today) {
   cursor: pointer;
-  background-color: #f0d7f0;
-  color: #b941b9;
-  border-radius: 50px;
+  background-color: #b941b9;
+  color: #fff;
 
+}
+
+.prev,
+.next {
+  padding: 10px 20px;
+  border: 2px solid #250525;
+  border-radius: 50px;
 }
 
 .prev-date,
@@ -161,6 +164,6 @@
   opacity: 0.5;
 }
 
-.today {
+.days .today {
   background-color: #b941b9;
 }
