@@ -42,7 +42,7 @@
                 <img src="/assets/images/food.jpg" alt="foodImg" />
               </figure>
               <figcaption>
-                <h3>For any occasion</h3>
+                <h3 class="secHeading">For any occasion</h3>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Error exercitationem temporibus eos odio. Quod officiis rem
@@ -53,25 +53,111 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="party_size">
-              <h3>Party Size</h3>
+            <div class="party_size text-center">
+              <h3 class="secHeading">
+                <i class="fa-solid fa-champagne-glasses"></i>Party Size
+              </h3>
               <form>
-                <div class="person_No">
-                  <button class="btn">1</button>
-                  <button class="btn">2</button>
-                  <button class="btn">3</button>
-                  <button class="btn">4</button>
-                  <button class="btn">5</button>
-                  <button class="btn">Other</button>
+                <div class="person_No mb-4">
+                  <input type="button" class="btn" value="1" />
+                  <input type="button" class="btn" value="2" />
+                  <input type="button" class="btn" value="3" />
+                  <input type="button" class="btn" value="4" />
+                  <input type="button" class="btn" value="5" />
+                  <input type="button" class="other active btn" value="other" />
                 </div>
                 <input type="text" class="partySize" />
               </form>
+              <div class="calendar text-left">
+                <div class="date">
+                  <span class="Month_sel mr-2"> </span>
+                  <span class="Year_sel"></span>
+                  <div class="month text-right">
+                    <i class="fas fa-angle-left prev"></i>
+                    <i class="fas fa-angle-right next"></i>
+                  </div>
+                </div>
+
+                <div class="weekdays">
+                  <div>S</div>
+                  <div>M</div>
+                  <div>T</div>
+                  <div>W</div>
+                  <div>T</div>
+                  <div>F</div>
+                  <div>S</div>
+                </div>
+                <div class="days"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <section>
+      <header class="header">
+        <div class="row">
+          <div class="col-sm-3">
+            <ul class="logo">
+              <li>SHREE Hotel</li>
+              <li>Pune 2.0</li>
+            </ul>
+          </div>
+
+          <div class="col-sm-1 offset-sm-8">
+            <p>2.1</p>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="reservationForm">
+              <h3>Create Your Table Reservation</h3>
+              <h4>Pune 2.0</h4>
+              <p id="reservation_date">form Js</p>
+              <form>
+                <h5>Disner detailes</h5>
+                <p>Sign in to makes your Reservation table</p>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Email" />
+                  </div>
+                  <div class="col-sm-6 float-left">
+                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Email" />
+                  </div>
+                </div>
+                <div class="tablecap">
+                  <select>
+                    <option value="select table">Select Table</option>
+                    <option value="single_table">Single Table</option>
+                    <option value="double_table">Double Table</option>
+                  </select>
+                </div>
+                <textarea name="" id="" cols="100" rows="3"></textarea>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Totam, ut?
+                </p>
+                <input type="button" value="Create Reservaion" />
+              </form>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <h2>What to Know Before You go</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              laboriosam tempora dolore sunt velit nobis, provident vel incidunt
+              voluptatibus fugiat unde nesciunt nam doloremque at odit modi enim
+              voluptatem quae!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="/assets/js/app.js"></script>
-    <script src="/assets/js/calender.js"></script>
   </body>
 </html>
